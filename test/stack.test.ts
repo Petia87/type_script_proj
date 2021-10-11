@@ -1,9 +1,9 @@
-import { Stack } from "../src/Stack.js"
+import { Stack } from "../src/Stack"
 import { assert } from "chai"
 
 
 describe("Stack", function () {
-    let stack;
+    let stack:any;
     beforeEach(() => {
         stack = new Stack()
     })

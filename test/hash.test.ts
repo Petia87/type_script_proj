@@ -1,4 +1,4 @@
-import { HashS } from "../src/hashS.js"
+import { HashS } from "../src/hashS"
 import { assert } from "chai"
 
 

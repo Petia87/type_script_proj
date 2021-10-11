@@ -1,7 +1,8 @@
-/*export class Queues {
-    _data = [];
+export class Queues {
+    _data:any[]= [];
     constructor() {
      this._data = []
+ 
           }
 
 
@@ -23,4 +24,4 @@
         return this._data.length === 0
     }
     
-}*/
+}

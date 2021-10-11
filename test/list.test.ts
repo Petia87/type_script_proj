@@ -1,9 +1,9 @@
-import { List } from "../src/List.js "
+import { List } from "../src/List"
 import { assert } from "chai"
 import { performance } from "perf_hooks";
 
 describe("Array", function () {
-    let list;
+    let list:any;
     beforeEach(() => {
         list = new List()
     })

@@ -1,9 +1,9 @@
-import { Queues } from "../src/Queues.js"
+import { Queues } from "../src/Queues"
 import { assert } from "chai"
 
 
 describe("Queues", function () {
-    let queues;
+    let queues:any;
     beforeEach(() => {
         queues = new Queues()
     })
